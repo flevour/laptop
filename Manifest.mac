@@ -17,4 +17,5 @@ common-components/default-gems
 mac-components/heroku
 mac-components/github
 mac-components/rcm
+mac-components/osx
 common-components/personal-additions
