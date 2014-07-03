@@ -138,6 +138,9 @@ fancy_echo "Installing rbenv-gem-rehash so the shell automatically picks up bina
 
 fancy_echo "Installing ruby-build, to install Rubies ..."
   brew_install_or_upgrade 'ruby-build'
+
+fancy_echo "Installing rbenv-gemset, to group gems in gemsets ..."
+  brew_install_or_upgrade 'rbenv-gemset'
 ### end mac-components/rbenv
 
 fancy_echo "Upgrading and linking OpenSSL ..."
